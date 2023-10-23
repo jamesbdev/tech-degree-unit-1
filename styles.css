@@ -114,6 +114,11 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.card img {
+  width: 100%;
+  height: auto;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -221,9 +226,24 @@ a.social:hover {
     justify-content: center;
   }
 
-  .experience-page .card {
+  .experience-page .card, .hobbies-page .card {
     max-width: 900px;
   }
+
+  .hobbies-page .card {
+    display: flex;
+    gap: 2.5rem;
+  }
+
+  .card img {
+    width: auto;
+    height: 400px;
+  }
+
+  .hobbies-page .flex {
+    flex-direction: column;
+  }
+
 
 }
 
