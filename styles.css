@@ -80,6 +80,9 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2);
 }
+
+
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -205,6 +208,16 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  .header-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .experience-page .card {
+    max-width: 900px;
   }
 
 }
